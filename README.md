@@ -9,6 +9,7 @@ There are a variety of inexpensive (<$100) entry level near-field probes availab
 
 I aim to solve some of these problems with Open Field Probe. Minimal effort is required to improve the basic designs. At the very least you will be able to download CAD files and gerbers and know where they came from.
 
+![PCBs](https://raw.githubusercontent.com/JeremyRuhland/OpenFieldProbe/master/pcbs.png)
 
 ## Principle Of Operation
 
