@@ -37,7 +37,7 @@ Sch and brd files are designed in Eagle CAD 6 but should be forward compatible t
 
 Each board's gerbers are stored in a seperate folder and are submittable to fab.
 
-The CAD folder contains a 3D printable clamshell grip for the probe. Print out two copies and fasten with four M2 screws/nuts.
+The CAD folder contains a 3D printable clamshell grip for the probe, designed in FreeCAD0.19. Print out two copies and fasten with four M2 screws/nuts.
 
 
 ## Performance Testing
