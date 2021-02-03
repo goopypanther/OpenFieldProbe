@@ -1,6 +1,8 @@
 # Open Field Probe
 #### Open source near-field probes for EMC precompliance testing
 
+![PCBs](https://raw.githubusercontent.com/JeremyRuhland/OpenFieldProbe/master/probe_cad.png)
+
 There are a variety of inexpensive (<$100) entry level near-field probes available from the usual suspects, however I've been dissuaded from purchasing them for the following reasons:
 
 * __Fly by night operations:__ How long will this random ebay item be available? Will there be any other source for this model of probe? Where did this come from anyway? The seller certainly has no association with the designer.
@@ -28,6 +30,15 @@ The transition of the signal trace to the top layer occurs at the edge of a grou
 The SMA connector is designed to have a characteristic impedance of 50 ohms and vias are used to stitch the connector ground pads into the shielding layers. A 50 ohm coaxial cable is used to connect both probe types to an inexpensive +30dB LNA which is designed for RTL-SDR applications. Depending on the exact measurement device used this amplifier may not be required. RTL-SDR units should be sensitive enough to detect signals without further amplification. The LNA is powered at 5V by the USB port on the front of my oscilloscope. Common mode currents in the coaxial cable are suppressed using a clamp-on ferrite bead.
 
 The input and output impedance of the LNA is 50 ohms which requires feedthru termination of my oscilloscope input. This is accomplished using an inexpensive BNC terminator, but depending on the test equipment an internal 50 ohm terminator may be available.
+
+## File Hierarchy
+
+Sch and brd files are designed in Eagle CAD 6 but should be forward compatible to more recent versions.
+
+Each board's gerbers are stored in a seperate folder and are submittable to fab.
+
+The CAD folder contains a 3D printable clamshell grip for the probe. Print out two copies and fasten with four M2 screws/nuts.
+
 
 ## Performance Testing
 
