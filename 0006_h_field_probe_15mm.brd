@@ -275,35 +275,31 @@
 <library name="aaa">
 <description>&lt;b&gt;Goopypanther General Component Library&lt;/b&gt;</description>
 <packages>
-<package name="SMA-142-0701-801">
-<description>&lt;b&gt;Cinch Connectivity Solutions Johnson&lt;/b&gt; SMA Coaxial Connector Socket, Female Pin, 50Ohm
-&lt;p&gt;Datasheet: &lt;a href="https://cinchconnectivity.com/OA_MEDIA/specs/pi-142-0701-801.pdf"&gt;https://cinchconnectivity.com/OA_MEDIA/specs/pi-142-0701-801.pdf&lt;/a&gt;
-&lt;p&gt;6.9mm above PCB, 1mm below, 9.52mm off PCB edge
-&lt;p&gt;&lt;b&gt;Requires 68mil (1.73mm) PCB&lt;/b&gt;</description>
-<smd name="4" x="-4.3815" y="0" dx="2.413" dy="5.08" layer="16" roundness="10" cream="no"/>
-<smd name="3" x="4.3815" y="0" dx="2.413" dy="5.08" layer="1" roundness="10" cream="no"/>
-<smd name="2" x="0" y="0" dx="2.286" dy="5.08" layer="1" roundness="10" cream="no"/>
-<smd name="1" x="-4.3815" y="0" dx="2.413" dy="5.08" layer="1" roundness="10" cream="no"/>
-<smd name="5" x="4.3815" y="0" dx="2.413" dy="5.08" layer="16" roundness="10" cream="no"/>
-<wire x1="-6" y1="-2.9" x2="-5" y2="-2.9" width="0.127" layer="21"/>
-<wire x1="-6" y1="-2.9" x2="-6" y2="-1.9" width="0.127" layer="21"/>
-<wire x1="6" y1="-2.9" x2="6" y2="-1.9" width="0.127" layer="21"/>
-<wire x1="6" y1="-2.9" x2="5" y2="-2.9" width="0.127" layer="21"/>
+<package name="SMA-EDGE-6.5MM">
+<smd name="4" x="-2.77" y="0" dx="1.5" dy="3.95" layer="16" roundness="10" cream="no"/>
+<smd name="3" x="2.77" y="0" dx="1.5" dy="3.95" layer="1" roundness="10" cream="no"/>
+<smd name="2" x="0" y="0" dx="1.5" dy="3.95" layer="1" roundness="10" cream="no"/>
+<smd name="1" x="-2.77" y="0" dx="1.5" dy="3.95" layer="1" roundness="10" cream="no"/>
+<smd name="5" x="2.77" y="0" dx="1.5" dy="3.95" layer="16" roundness="10" cream="no"/>
+<wire x1="-4" y1="-2.5" x2="-3" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-4" y1="-2.5" x2="-4" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="4" y1="-2.5" x2="4" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="4" y1="-2.5" x2="3" y2="-2.5" width="0.127" layer="21"/>
 <text x="-3.100003125" y="-3.300003125" size="0.4064" layer="25" font="vector">&gt;NAME</text>
 <text x="1" y="-3.3" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 <wire x1="-0.2" y1="0" x2="0" y2="0" width="0" layer="51"/>
 <wire x1="0.2" y1="0" x2="0" y2="0" width="0" layer="51"/>
 <wire x1="0" y1="0" x2="0" y2="0.2" width="0" layer="51"/>
 <wire x1="0" y1="0" x2="0" y2="-0.2" width="0" layer="51"/>
-<wire x1="-4.72" y1="4.25" x2="-4.72" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="-4.72" y1="-2.15" x2="-3.7" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="-3.7" y1="-2.15" x2="-3.7" y2="2.7" width="0.127" layer="51"/>
-<wire x1="-3.7" y1="2.7" x2="3.7" y2="2.7" width="0.127" layer="51"/>
-<wire x1="3.7" y1="2.7" x2="3.7" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="3.7" y1="-2.15" x2="4.72" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="4.72" y1="-2.15" x2="4.72" y2="4.25" width="0.127" layer="51"/>
-<wire x1="4.72" y1="4.25" x2="2.6" y2="4.25" width="0.127" layer="51"/>
-<wire x1="2.6" y1="4.25" x2="2.6" y2="6.2" width="0.127" layer="51"/>
+<wire x1="-3.22" y1="4.2" x2="-3.22" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="-3.22" y1="-1.3" x2="-2.4" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="-2.4" y1="-1.3" x2="-2.4" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-2.4" y1="2.5" x2="2.4" y2="2.5" width="0.127" layer="51"/>
+<wire x1="2.4" y1="2.5" x2="2.4" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="2.4" y1="-1.3" x2="3.12" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="3.12" y1="-1.3" x2="3.12" y2="4.2" width="0.127" layer="51"/>
+<wire x1="3.12" y1="4.2" x2="2.6" y2="4.2" width="0.127" layer="51"/>
+<wire x1="2.6" y1="4.2" x2="2.6" y2="6.2" width="0.127" layer="51"/>
 <wire x1="2.6" y1="6.2" x2="2.6" y2="7.1" width="0.127" layer="51"/>
 <wire x1="2.6" y1="7.1" x2="2.6" y2="8.1" width="0.127" layer="51"/>
 <wire x1="2.6" y1="8.1" x2="2.6" y2="9.1" width="0.127" layer="51"/>
@@ -317,15 +313,15 @@
 <wire x1="-2.7" y1="8.7" x2="-2.7" y2="7.7" width="0.127" layer="51"/>
 <wire x1="-2.7" y1="7.7" x2="-2.7" y2="6.7" width="0.127" layer="51"/>
 <wire x1="-2.7" y1="6.7" x2="-2.7" y2="5.8" width="0.127" layer="51"/>
-<wire x1="-2.7" y1="5.8" x2="-2.7" y2="4.25" width="0.127" layer="51"/>
-<wire x1="-2.7" y1="4.25" x2="-4.72" y2="4.25" width="0.127" layer="51"/>
+<wire x1="-2.7" y1="5.8" x2="-2.7" y2="4.2" width="0.127" layer="51"/>
+<wire x1="-2.7" y1="4.2" x2="-3.22" y2="4.2" width="0.127" layer="51"/>
 <wire x1="-2.7" y1="5.8" x2="2.6" y2="6.2" width="0.127" layer="51"/>
 <wire x1="-2.7" y1="6.7" x2="2.6" y2="7.1" width="0.127" layer="51"/>
 <wire x1="-2.7" y1="7.7" x2="2.6" y2="8.1" width="0.127" layer="51"/>
 <wire x1="-2.7" y1="8.7" x2="2.6" y2="9.1" width="0.127" layer="51"/>
 <wire x1="-2.7" y1="9.8" x2="2.6" y2="10.2" width="0.127" layer="51"/>
 <wire x1="-2.7" y1="10.7" x2="2.6" y2="11.1" width="0.127" layer="51"/>
-<text x="-1.3" y="3" size="0.4064" layer="51" font="vector">PCB Edge</text>
+<text x="-1.3" y="2.7" size="0.4064" layer="51" font="vector">PCB Edge</text>
 </package>
 <package name="FRAME-8.5X11-LANDSCAPE">
 <text x="221" y="7.5" size="2.54" layer="48">TITLE:</text>
@@ -2387,13 +2383,13 @@
 </pass>
 </autorouter>
 <elements>
-<element name="CONN1" library="aaa" package="SMA-142-0701-801" value="SMA" x="38.8" y="70" smashed="yes" rot="R90">
-<attribute name="NP" value="" x="261.05" y="89.05" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFG" value="Cinch Connectivity Solutions Johnson" x="261.05" y="89.05" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="SMA" x="261.05" y="89.05" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY" value="J502-ND" x="261.05" y="89.05" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PN" value="142-0701-801" x="261.05" y="89.05" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="43.100003125" y="64.699996875" size="0.4064" layer="25" font="vector" rot="R90"/>
+<element name="CONN1" library="aaa" package="SMA-EDGE-6.5MM" value="SMA" x="38.5" y="70" smashed="yes" rot="R90">
+<attribute name="NP" value="" x="260.75" y="89.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFG" value="Cinch Connectivity Solutions Johnson" x="260.75" y="89.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="SMA" x="260.75" y="89.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="J502-ND" x="260.75" y="89.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PN" value="142-0701-801" x="260.75" y="89.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="42.800003125" y="64.699996875" size="0.4064" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="U$2" library="aaa" package="FRAME-8.5X11-LANDSCAPE" value="FRAME-8.5X11-LANDSCAPE-LET" x="0" y="0">
 <attribute name="TITLE" value="H-Field Probe (15mm)" x="293.37" y="-1.27" size="1.778" layer="27" display="off"/>
@@ -2587,8 +2583,8 @@
 <via x="45.33993125" y="70.63993125" extent="1-16" drill="0.254" diameter="0.4064"/>
 <via x="45.33993125" y="69.36006875" extent="1-16" drill="0.254" diameter="0.4064"/>
 <via x="44.06006875" y="70.63993125" extent="1-16" drill="0.254" diameter="0.4064"/>
-<via x="38.8" y="72.6" extent="1-16" drill="0.254" diameter="0.4064"/>
-<via x="38.8" y="67.4" extent="1-16" drill="0.254" diameter="0.4064"/>
+<via x="38.5" y="72.8" extent="1-16" drill="0.254" diameter="0.4064"/>
+<via x="38.5" y="67.2" extent="1-16" drill="0.254" diameter="0.4064"/>
 <via x="42" y="65.6" extent="1-16" drill="0.254" diameter="0.4064"/>
 <via x="42" y="74.4" extent="1-16" drill="0.254" diameter="0.4064"/>
 <via x="38.8" y="63.8" extent="1-16" drill="0.254" diameter="0.4064"/>
@@ -2644,12 +2640,12 @@
 <via x="114" y="74.6" extent="1-16" drill="0.254" diameter="0.4069"/>
 <via x="118" y="66.9" extent="1-16" drill="0.254" diameter="0.4069"/>
 <via x="118" y="63.9" extent="1-16" drill="0.254" diameter="0.4069"/>
-<via x="37.2" y="65.6" extent="1-16" drill="0.254" diameter="0.4064"/>
-<via x="40.4" y="65.6" extent="1-16" drill="0.254" diameter="0.4064"/>
-<via x="38.8" y="65.6" extent="1-16" drill="0.254" diameter="0.4064"/>
-<via x="37.2" y="74.4" extent="1-16" drill="0.254" diameter="0.4064"/>
-<via x="38.8" y="74.4" extent="1-16" drill="0.254" diameter="0.4064"/>
-<via x="40.4" y="74.4" extent="1-16" drill="0.254" diameter="0.4064"/>
+<via x="37.2" y="67.2" extent="1-16" drill="0.254" diameter="0.4064"/>
+<via x="41" y="67.2" extent="1-16" drill="0.254" diameter="0.4064"/>
+<via x="38.5" y="65.9" extent="1-16" drill="0.254" diameter="0.4064"/>
+<via x="37.2" y="72.8" extent="1-16" drill="0.254" diameter="0.4064"/>
+<via x="38.5" y="74.1" extent="1-16" drill="0.254" diameter="0.4064"/>
+<via x="41" y="72.8" extent="1-16" drill="0.254" diameter="0.4064"/>
 <wire x1="133.567365625" y1="70.655509375" x2="133.567365625" y2="69.344490625" width="0.254" layer="2" curve="348.6"/>
 <wire x1="44" y1="60.6" x2="126" y2="60.6" width="0.68" layer="2"/>
 <wire x1="44" y1="79.4" x2="126" y2="79.4" width="0.68" layer="2"/>
@@ -2662,17 +2658,19 @@
 <wire x1="40" y1="79.4" x2="126" y2="79.4" width="0.68" layer="3"/>
 <wire x1="40" y1="60.6" x2="36.6" y2="64" width="0.68" layer="3" curve="-90"/>
 <wire x1="40" y1="79.4" x2="36.6" y2="76" width="0.68" layer="3" curve="90"/>
-<wire x1="36.6" y1="76" x2="36.6" y2="74.4" width="0.68" layer="3"/>
-<wire x1="36.6" y1="74.4" x2="36.6" y2="65.6" width="0.68" layer="3"/>
-<wire x1="36.6" y1="65.6" x2="36.6" y2="64" width="0.68" layer="3"/>
-<wire x1="37.2" y1="65.6" x2="36.6" y2="65.6" width="0.68" layer="3"/>
-<wire x1="37.2" y1="74.4" x2="36.6" y2="74.4" width="0.68" layer="3"/>
+<wire x1="36.6" y1="76" x2="36.6" y2="72.8" width="0.68" layer="3"/>
+<wire x1="36.6" y1="72.8" x2="36.6" y2="67.2" width="0.68" layer="3"/>
+<wire x1="36.6" y1="67.2" x2="36.6" y2="64" width="0.68" layer="3"/>
+<wire x1="37.2" y1="67.2" x2="36.6" y2="67.2" width="0.68" layer="3"/>
+<wire x1="37.2" y1="72.8" x2="36.6" y2="72.8" width="0.68" layer="3"/>
+<via x="39.8" y="72.8" extent="1-16" drill="0.254" diameter="0.4064"/>
+<via x="39.8" y="67.2" extent="1-16" drill="0.254" diameter="0.4064"/>
 <wire x1="119.528540625" y1="70.65366875" x2="119.528540625" y2="70.65366875" width="0" layer="19" extent="1-16"/>
 <wire x1="120.4" y1="70" x2="119.528540625" y2="70.65366875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANT">
 <contactref element="CONN1" pad="2"/>
-<wire x1="38.8" y1="70" x2="44.7" y2="70" width="0.353" layer="1"/>
+<wire x1="38.5" y1="70" x2="44.7" y2="70" width="0.353" layer="1"/>
 <via x="44.7" y="70" extent="1-16" drill="0.254" diameter="0.568"/>
 <wire x1="44.7" y1="70" x2="119.5" y2="70" width="0.235" layer="2"/>
 <wire x1="119.5" y1="70" x2="127" y2="62.5" width="0.235" layer="2" curve="90"/>

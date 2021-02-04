@@ -75,6 +75,54 @@
 <library name="aaa">
 <description>&lt;b&gt;Goopypanther General Component Library&lt;/b&gt;</description>
 <packages>
+<package name="SMA-EDGE-6.5MM">
+<smd name="4" x="-2.77" y="0" dx="1.5" dy="3.95" layer="16" roundness="10" cream="no"/>
+<smd name="3" x="2.77" y="0" dx="1.5" dy="3.95" layer="1" roundness="10" cream="no"/>
+<smd name="2" x="0" y="0" dx="1.5" dy="3.95" layer="1" roundness="10" cream="no"/>
+<smd name="1" x="-2.77" y="0" dx="1.5" dy="3.95" layer="1" roundness="10" cream="no"/>
+<smd name="5" x="2.77" y="0" dx="1.5" dy="3.95" layer="16" roundness="10" cream="no"/>
+<wire x1="-4" y1="-2.5" x2="-3" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-4" y1="-2.5" x2="-4" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="4" y1="-2.5" x2="4" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="4" y1="-2.5" x2="3" y2="-2.5" width="0.127" layer="21"/>
+<text x="-3.100003125" y="-3.300003125" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="1" y="-3.3" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="-0.2" y1="0" x2="0" y2="0" width="0" layer="51"/>
+<wire x1="0.2" y1="0" x2="0" y2="0" width="0" layer="51"/>
+<wire x1="0" y1="0" x2="0" y2="0.2" width="0" layer="51"/>
+<wire x1="0" y1="0" x2="0" y2="-0.2" width="0" layer="51"/>
+<wire x1="-3.22" y1="4.2" x2="-3.22" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="-3.22" y1="-1.3" x2="-2.4" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="-2.4" y1="-1.3" x2="-2.4" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-2.4" y1="2.5" x2="2.4" y2="2.5" width="0.127" layer="51"/>
+<wire x1="2.4" y1="2.5" x2="2.4" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="2.4" y1="-1.3" x2="3.12" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="3.12" y1="-1.3" x2="3.12" y2="4.2" width="0.127" layer="51"/>
+<wire x1="3.12" y1="4.2" x2="2.6" y2="4.2" width="0.127" layer="51"/>
+<wire x1="2.6" y1="4.2" x2="2.6" y2="6.2" width="0.127" layer="51"/>
+<wire x1="2.6" y1="6.2" x2="2.6" y2="7.1" width="0.127" layer="51"/>
+<wire x1="2.6" y1="7.1" x2="2.6" y2="8.1" width="0.127" layer="51"/>
+<wire x1="2.6" y1="8.1" x2="2.6" y2="9.1" width="0.127" layer="51"/>
+<wire x1="2.6" y1="9.1" x2="2.6" y2="10.2" width="0.127" layer="51"/>
+<wire x1="2.6" y1="10.2" x2="2.6" y2="11.1" width="0.127" layer="51"/>
+<wire x1="2.6" y1="11.1" x2="2.6" y2="11.200003125" width="0.127" layer="51"/>
+<wire x1="2.6" y1="11.200003125" x2="-2.7" y2="11.200003125" width="0.127" layer="51"/>
+<wire x1="-2.7" y1="11.200003125" x2="-2.7" y2="10.7" width="0.127" layer="51"/>
+<wire x1="-2.7" y1="10.7" x2="-2.7" y2="9.8" width="0.127" layer="51"/>
+<wire x1="-2.7" y1="9.8" x2="-2.7" y2="8.7" width="0.127" layer="51"/>
+<wire x1="-2.7" y1="8.7" x2="-2.7" y2="7.7" width="0.127" layer="51"/>
+<wire x1="-2.7" y1="7.7" x2="-2.7" y2="6.7" width="0.127" layer="51"/>
+<wire x1="-2.7" y1="6.7" x2="-2.7" y2="5.8" width="0.127" layer="51"/>
+<wire x1="-2.7" y1="5.8" x2="-2.7" y2="4.2" width="0.127" layer="51"/>
+<wire x1="-2.7" y1="4.2" x2="-3.22" y2="4.2" width="0.127" layer="51"/>
+<wire x1="-2.7" y1="5.8" x2="2.6" y2="6.2" width="0.127" layer="51"/>
+<wire x1="-2.7" y1="6.7" x2="2.6" y2="7.1" width="0.127" layer="51"/>
+<wire x1="-2.7" y1="7.7" x2="2.6" y2="8.1" width="0.127" layer="51"/>
+<wire x1="-2.7" y1="8.7" x2="2.6" y2="9.1" width="0.127" layer="51"/>
+<wire x1="-2.7" y1="9.8" x2="2.6" y2="10.2" width="0.127" layer="51"/>
+<wire x1="-2.7" y1="10.7" x2="2.6" y2="11.1" width="0.127" layer="51"/>
+<text x="-1.3" y="2.7" size="0.4064" layer="51" font="vector">PCB Edge</text>
+</package>
 <package name="SMA-142-0701-801">
 <description>&lt;b&gt;Cinch Connectivity Solutions Johnson&lt;/b&gt; SMA Coaxial Connector Socket, Female Pin, 50Ohm
 &lt;p&gt;Datasheet: &lt;a href="https://cinchconnectivity.com/OA_MEDIA/specs/pi-142-0701-801.pdf"&gt;https://cinchconnectivity.com/OA_MEDIA/specs/pi-142-0701-801.pdf&lt;/a&gt;
@@ -2597,7 +2645,7 @@
 <gate name="G$1" symbol="COAX-2GND" x="0" y="0" swaplevel="1"/>
 </gates>
 <devices>
-<device name="-EDGE-SMA" package="SMA-142-0701-801">
+<device name="-EDGE-SMA-9.5MM" package="SMA-142-0701-801">
 <connects>
 <connect gate="G$1" pin="GND@0" pad="1 3"/>
 <connect gate="G$1" pin="GND@1" pad="4 5"/>
@@ -2626,6 +2674,22 @@
 <attribute name="NP" value="" constant="no"/>
 <attribute name="PN" value="U.FL-R-SMT-1(10)" constant="no"/>
 <attribute name="VALUE" value="U.FL" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-EDGE-SMA-6.5MM" package="SMA-EDGE-6.5MM">
+<connects>
+<connect gate="G$1" pin="GND@0" pad="1 3"/>
+<connect gate="G$1" pin="GND@1" pad="4 5"/>
+<connect gate="G$1" pin="SIGNAL" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MFG" value="" constant="no"/>
+<attribute name="NP" value="" constant="no"/>
+<attribute name="PN" value="" constant="no"/>
+<attribute name="VALUE" value="SMA" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2775,7 +2839,11 @@
 </classes>
 <parts>
 <part name="U$1" library="aaa" deviceset="GND" device=""/>
-<part name="CONN1" library="aaa" deviceset="COAX-CONNECTOR" device="-EDGE-SMA" value="SMA"/>
+<part name="CONN1" library="aaa" deviceset="COAX-CONNECTOR" device="-EDGE-SMA-6.5MM" value="SMA">
+<attribute name="DIGIKEY" value=""/>
+<attribute name="MFG" value=""/>
+<attribute name="PN" value=""/>
+</part>
 <part name="U$2" library="aaa" deviceset="FRAME-8.5X11-LANDSCAPE" device="-LET">
 <attribute name="DOCNUM" value="0006"/>
 <attribute name="REV" value="A2"/>
